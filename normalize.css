@@ -1,0 +1,276 @@
+html {
+  font-family: sans-serif; 
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Remove default margin.*/
+
+body {
+  margin: 0;
+}
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.*/
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/*Prevent modern browsers from displaying `audio` without controls.*/
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* Address `[hidden]` styling not present in IE 8/9/10.*/
+
+[hidden],
+template {
+  display: none;
+}
+
+
+/*Remove the gray background color from active links in IE 10.*/
+
+a {
+  background-color: transparent;
+}
+
+/* Improve readability when focused and also mouse hovered in all browsers.*/
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Address styling not present in IE 8/9/10/11, Safari, and Chrome.*/
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* Address style set to `bolder` in Firefox 4+, Safari, and Chrome.*/
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/* Address styling not present in Safari and Chrome.*/
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/*Address styling not present in IE 8/9.*/
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* Address inconsistent and variable font size in all browsers.*/
+
+small {
+  font-size: 80%;
+}
+
+/* Prevent `sub` and `sup` affecting `line-height` in all browsers. */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/*Remove border when inside `a` element in IE 8/9/10.*/
+
+img {
+  border: 0;
+}
+
+/* Correct overflow not hidden in IE 9/10/11.*/
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Address margin not present in IE 8/9 and Safari.*/
+
+figure {
+  margin: 1em 40px;
+}
+
+/* Address differences between Firefox and other browsers. */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* Contain overflow in all browsers.*/
+
+pre {
+  overflow: auto;
+}
+
+/* Address odd `em`-unit font size rendering in all browsers. */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* Address `overflow` set to `hidden` in IE 8/9/10/11.*/
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* Re-set default cursor for disabled elements.*/
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* Remove inner padding and border in Firefox 4+. */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*Address Firefox 4+ setting `line-height` on `input` using `!important` in the UA stylesheet.*/
+
+input {
+  line-height: normal;
+}
+
+/* Address box sizing set to `content-box` in IE 8/9/10. Remove excess padding in IE 8/9/10. */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Fix the cursor style for Chrome's increment and decrement buttons.*/
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* Define consistent border, margin, and padding.*/
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+
+/* Remove default vertical scrollbar in IE 8/9/10/11. */
+
+textarea {
+  overflow: auto;
+}
+
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Remove space between table cells. */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
